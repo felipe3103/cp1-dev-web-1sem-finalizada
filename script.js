@@ -86,3 +86,19 @@ function main() {
 
 // Executar o programa
 main();
+
+// Exercíco 4
+
+let idade = parseInt(prompt("Digite sua idade: "));
+
+if (idade < 0) {
+    alert("Idade inválida");
+} else if (idade <= 12) {
+    alert("Criança!");
+} else if (idade <= 18) {
+    alert("Adolescente!");
+} else if (idade <= 60) {
+    alert("Adulto!");
+} else {
+    alert("Idoso!");
+}
