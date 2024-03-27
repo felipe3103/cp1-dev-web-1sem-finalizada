@@ -194,3 +194,14 @@ console.log(texto2.slice(27,34));
 //Busque a palavra métodos
 let texto3 = "Tecnologia é um produto da ciêcia e da engenharia que envolve um conjunto de instrumento, métodos e técnicas que visam a resolução de problemas"
 console.log(texto3.slice(90,97));
+
+// exercicio 9
+let numero3 ="123.456";
+let verificar = typeof numero3;
+console.log(verificar)
+
+//string = float
+let numero1 ="123.456";
+console.log(parseFloat(numero1))
+var numero2 = parseFloat(numero1)
+console.log(typeof numero2)
