@@ -144,3 +144,34 @@ var status = verificarAprovacao(media);
 console.log("Notas do aluno: " + notas.join(", "));
 console.log("Média: " + media.toFixed(2));
 console.log("Status: " + status);
+
+//exercicio 7
+let nome7;
+let idade2;
+let curso;
+let ano;
+
+function PegaDados() {
+    // Obter dados 
+    const nome7 = prompt("Digite seu nome:");
+    const idade2 = prompt("Digite sua idade:");
+    const curso = prompt("Digite seu curso")
+    const ano = prompt("Digite o ano:");
+
+    // Imprime nome, idade e curso
+    console.log("Seu nome é: " + nome7);
+    console.log("Sua idade é: " + idade2);
+    console.log("Seu curso é: " + curso);
+    console.log("Seu ano é: " + ano);
+
+    document.write("Seu nome é: " + nome7);
+    document.write("<br>")
+    document.write("Sua idade é: " + idade2);
+    document.write("<br>")
+    document.write("Seu curso é: " + curso);
+    document.write("<br>")
+    document.write("Seu ano é: " + ano);
+}
+
+// Executar o programa
+PegaDados();
