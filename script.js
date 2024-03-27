@@ -102,3 +102,16 @@ if (idade < 0) {
 } else {
     alert("Idoso!");
 }
+
+//Exercício 5
+
+let usernameCad = "admin";
+let passwordCad = "1234";
+let username = prompt("Digite seu nome de usuário: ");
+let password = prompt("Digite sua senha: ")
+
+if (username == usernameCad && password == passwordCad) {
+    alert("Login realizado com sucesso!");
+} else {
+    alert("Falha na Autenticação")
+}
