@@ -87,6 +87,8 @@ function main() {
 // Executar o programa
 main();
 
+//Autor: João Victor Soave
+//https://github.com/siigAprendiz
 // Exercíco 4
 
 let idade = parseInt(prompt("Digite sua idade: "));
@@ -115,3 +117,30 @@ if (username == usernameCad && password == passwordCad) {
 } else {
     alert("Falha na Autenticação")
 }
+
+//Autor:Gustavo Henrique Martins
+//exercicio 6
+function calcularMedia(notas) {
+    var soma = 0;
+    for (var i = 0; i < notas.length; i++) {
+        soma += notas[i];
+    }
+    var media = soma / notas.length;
+    return media;
+}
+
+function verificarAprovacao(media) {
+    if (media >= 6) {
+        return "Aprovado";
+    } else {
+        return "Reprovado";
+    }
+}
+
+var notas = [7, 8, 6, 9, 5, 6, 7];
+var media = calcularMedia(notas);
+var status = verificarAprovacao(media);
+
+console.log("Notas do aluno: " + notas.join(", "));
+console.log("Média: " + media.toFixed(2));
+console.log("Status: " + status);
