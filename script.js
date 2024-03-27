@@ -175,3 +175,22 @@ function PegaDados() {
 
 // Executar o programa
 PegaDados();
+
+//Autor:Henrique Ignacio
+//https://github.com/henriqueignacio
+//exercicio 8
+//Busque a primeira posição de “em”
+let texto = "Tecnologia é um produto da ciêcia e da engenharia que envolve um conjunto de instrumento, métodos e técnicas que visam a resolução de problemas"
+console.log(texto.indexOf("em"));
+
+//Busque a última posição de “ia”
+let texto1 = "Tecnologia é um produto da ciêcia e da engenharia que envolve um conjunto de instrumento, métodos e técnicas que visam a resolução de problemas"
+console.log(texto1.lastIndexOf("ia"));
+
+//Busque a palavra ciência
+let texto2 = "Tecnologia é um produto da ciêcia e da engenharia que envolve um conjunto de instrumento, métodos e técnicas que visam a resolução de problemas"
+console.log(texto2.slice(27,34));
+
+//Busque a palavra métodos
+let texto3 = "Tecnologia é um produto da ciêcia e da engenharia que envolve um conjunto de instrumento, métodos e técnicas que visam a resolução de problemas"
+console.log(texto3.slice(90,97));
